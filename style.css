@@ -93,6 +93,29 @@ body {
     color: #E5E7EB;
 }
 
+/* quote portion */
+.quote{
+    padding: 32px;
+    background: #E5E7EB;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-size: 18px;
+    font-weight: bold;
+
+    align-self: flex-end;
+}
 /* misc portion */
 button {
     border: none;
