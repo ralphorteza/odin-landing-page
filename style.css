@@ -138,6 +138,42 @@ body {
     align-self: flex-end;
 
 }
+
+
+/* action portion */
+.action {
+    padding: 40px;
+    border: 2px solid pink;
+    border-radius: 12px;
+    margin: 50px 120px;
+    background-color: #3882F6;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+
+.text-group {
+    color: #E5E7EB;
+    border: 2px solid pink;
+}
+
+.primary-text {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.secondary-text {
+    font-size: 18px;
+}
+
+.action button {
+    border: 2px solid white;
+}
+
+
 /* misc portion */
 button {
     border: none;
