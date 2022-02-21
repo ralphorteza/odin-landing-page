@@ -82,7 +82,7 @@ body {
 }
 
 .info {
-    /* border: 2px solid rebeccapurple; */
+    /* border: 2px solid rebeccapurple; */ 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,26 +104,39 @@ body {
 
 /* quote portion */
 .quote{
-    padding: 32px;
+    padding: 92px;
+    /* border: 2px solid purple; */
     background: #E5E7EB;
 
     display: flex;
     flex-direction: column;
-    align-content: center;
-    justify-content: center;
+    /* align-content: center; */
+ /*    justify-content: center; */
+}
+
+.quote-content {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-self: center;
 }
 
 .quote-text {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    width: 775px;
+
+    /* border: 2px solid red; */
 }
 
 .quote-author {
     font-size: 18px;
     font-weight: bold;
 
+    /* border: 2px solid red; */
     align-self: flex-end;
+
 }
 /* misc portion */
 button {
