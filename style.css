@@ -6,6 +6,7 @@ body {
   
     display: flex;
     flex-direction: column;
+
 }
 
 /* hero container portion */
@@ -54,41 +55,49 @@ body {
 .content {
     background: white;
     padding: 16px;
+    /* border: 2px solid rebeccapurple; */
+    margin-bottom: 64px;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 10px;
 
-    margin-bottom: 24px;
 }
 
 .content-title {
     font-size: 36px;
     font-weight: bolder;
     color:#1F2937;
+    align-self: center;
+
+    margin: 24px auto;
 }
 
 .content-info {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    gap: 10px;
+    align-self: center;
+    gap: 30px;
+
 }
 
 .info {
+    /* border: 2px solid rebeccapurple; */
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .card {
-    width: 100px;
-    height: 100px;
-    border: 2px;
-    border-color: #3882F6;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #3882F6;
+    border-radius: 25px;
 }
 
 .text {
+    text-align: center;
+    /* border: 2px solid red; */
+    width: 200px;
     font-size: 18px;
     color: #E5E7EB;
 }
